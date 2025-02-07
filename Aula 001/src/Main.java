@@ -39,7 +39,7 @@ public class Main {
         for(int i = 0; i < 5; i++){
             c1.andar();
         }
-        c1.abastecer();
+        c1.abastecer(25);
         c1.andar();
 
     }

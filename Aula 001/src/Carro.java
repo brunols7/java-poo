@@ -36,8 +36,13 @@ public class Carro{
         }
     }
 
-    void abastecer(){
-        combustivel = 25;
+    void abastecer(double quantidade){
+        combustivel += quantidade;
         System.out.println("Carro está abastecendo...");
+    }
+
+    // metodo de pegar potencia com retorno
+    double getPotencia(){
+        return potencia;
     }
 }
