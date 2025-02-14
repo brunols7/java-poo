@@ -45,6 +45,10 @@ public class Pessoa {
     }
 
     void mostraInfo (){
-        System.out.println(nome + ", " + idade + " anos.");
+        if(maiorDeIdade){
+            System.out.println(nome + ", " + idade + " anos." + " Maior de idade.");
+        }else{
+            System.out.println(nome + ", " + idade + " anos." + " Menor de idade.");
+        }
     }
 }
